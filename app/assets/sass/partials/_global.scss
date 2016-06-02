@@ -1,0 +1,67 @@
+html,
+body {
+	background-color: $bg-dark-offwhite;
+	font-family: 'Roboto Mono';
+}
+
+h1,
+h2,
+h3 {
+	margin: 0 0 10px 0;
+}
+
+h1 {
+	margin: 0 0 15px 0;
+	font-size: 20px;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+
+a:focus {
+	text-decoration: none;
+}
+
+iframe {
+	margin-bottom: 20px;
+	border: 1px solid #d6d6d6;
+	border-radius: 2px;
+}
+
+
+// basic button
+.btn {
+	background-color: #2d2d2d;
+	color: #fff;
+	margin-top: 10px;
+}
+.btn:hover {
+	background-color: #444444;
+	color: #fff;
+}
+
+
+
+
+// App Page Headers
+.route-title {
+    margin-bottom: 40px;
+    font-size: 38px;
+    color: #525252;
+    font-weight: 800;
+}
+
+
+// Loading text
+.loader {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate( -50%, -50% );
+}
